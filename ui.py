@@ -1,9 +1,9 @@
-# File: ui.py (diubah)
+# File: ui.py
 class Interface:
     def __init__(self):
         self.script_info = {
-            "name": "DNSecGuard",  # Nama diubah
-            "version": "2.0",
+            "name": "DNSecGuard",
+            "version": "2.1",
             "developer": "Dimas Narendra Sudibyo",
             "team": "dnsCat"
         }

@@ -12,8 +12,9 @@ class AISecurity:
             # Simulasi analisis trafik
             time.sleep(5)
             print("[AI] Monitoring network traffic...")
-            
+
     def start_ai(self):
         ai_thread = threading.Thread(target=self.monitor_network)
         ai_thread.daemon = True
         ai_thread.start()
+        print("[*] AI Security Engine Aktif")
